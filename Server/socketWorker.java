@@ -6,12 +6,19 @@
 import java.net.*;
 import java.io.*;
 
-/**
- *
- * @author Prof. Matteo Palitto
- */
+//dichiarazione libreria con asterisco perchè prende tutto 
+import java.util.*;
+
+
+
 class SocketWorker implements Runnable {
   private Socket client;
+  
+//dichiarazione classe per nickname con variabile 
+private Socket client;
+String nickname;
+  
+ 
 
     //Constructor: inizializza le variabili
     SocketWorker(Socket client) {
