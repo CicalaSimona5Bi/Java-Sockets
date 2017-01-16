@@ -35,6 +35,11 @@ class SocketWorker implements Runnable {
 
         String line = "";
         int clientPort = client.getPort(); //il "nome" del mittente (client)
+      
+      // Stampa uteni connessi, con il commando "ListaUtenti"
+      nickname = in.readLine();
+      ServerTestoMultiThreaded.nicks.add(nickname);
+            
         while(line != null){
           try{
             line = in.readLine();
