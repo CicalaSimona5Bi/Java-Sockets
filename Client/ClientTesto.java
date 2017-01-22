@@ -4,12 +4,9 @@
  * Utilizza una "Thread" per l'ascolto dei messaggi provenienti dal Server.
  */
 
-/**
- *
- * @author Prof. Matteo Palitto
- */
 import java.net.*;
 import java.io.*;
+import java.util.*; //importazione librerie 
 
 public class ClientTesto {
     
